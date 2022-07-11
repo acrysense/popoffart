@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>popoffart - Внутренняя страница новости</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+				</button>
+				<a href="index.html" class="header__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Художники</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Выставки</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Ярмарки</a>
+						</li>
+						<li class="nav__item">
+							<a href="news.html" class="nav__link">Новости</a>
+						</li>
+						<li class="nav__item">
+							<a href="about-gallery.html" class="nav__link">О галерее</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Магазин</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="c-basket header__basket">
+					<span class="c-basket__value">18.000 ₽</span>
+					<a href="#" class="c-basket__btn">
+						<svg class="c-basket__btn-icon">
+							<use xlink:href="img/sprite.svg#icon-basket"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end of header -->
+	<!-- mobile menu -->
+	<div class="mobile-menu" id="mobile-menu">
+		<div class="mobile-menu__wrapper">
+			<nav class="nav mobile-menu__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Художники</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Выставки</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Ярмарки</a>
+					</li>
+					<li class="nav__item">
+						<a href="news.html" class="nav__link">Новости</a>
+					</li>
+					<li class="nav__item">
+						<a href="about-gallery.html" class="nav__link">О галерее</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Магазин</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mobile-menu__block">
+				<p class="mobile-menu__help">Если у Вас остались вопросы свяжитесь с нами</p>
+				<a href="#" class="mobile-menu__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+			<a href="tel:+74957758706" class="mobile-menu__number">+7 (495) 775 87 06</a>
+			<ul class="c-socials c-socials--black mobile-menu__socials">
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="35px" height="24px">
+							<use xlink:href="img/sprite.svg#icon-youtube"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="31px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="26px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="13px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- news inner -->
+		<section class="news-inner" id="news-inner">
+			<div class="container">
+				<div class="news-inner__wrap">
+					<div class="news-inner__sticky">
+						<a href="news.html" class="news-inner__back back-btn">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+							</svg>
+							<span>Назад</span>
+						</a>
+					</div>
+					<div class="news-inner__main">
+						<picture class="news-inner__img">
+							<img src="img/news-01.jpg" alt="Image">
+						</picture>
+						<h1 class="news-inner__heading">Галерея pop/off/art представляет персональную выставку Ивана Плюща</h1>
+						<div class="news-inner__info">
+							<div class="news-inner__block">
+								<span class="news-inner__date">17 - 20 Сентября 2021</span>
+								<div class="news-inner__group">
+									<span class="news-inner__help">поделиться в</span>
+									<ul class="c-socials c-socials--black news-inner__socials">
+										<li class="c-socials__item">
+											<a href="#" class="c-socials__link">
+												<svg class="c-socials__icon" width="13px" height="26px">
+													<use xlink:href="img/sprite.svg#icon-facebook"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="c-socials__item">
+											<a href="#" class="c-socials__link">
+												<svg class="c-socials__icon" width="26px" height="26px">
+													<use xlink:href="img/sprite.svg#icon-instagram"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="c-socials__item">
+											<a href="#" class="c-socials__link">
+												<svg class="c-socials__icon" width="31px" height="26px">
+													<use xlink:href="img/sprite.svg#icon-twitter"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="c-socials__item">
+											<a href="#" class="c-socials__link">
+												<svg class="c-socials__icon" width="35px" height="20px">
+													<use xlink:href="img/sprite.svg#icon-vk"></use>
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-inner__body">
+								<h3 class="news-inner__title">Галерея pop/off/art представляет персональную выставку Ивана Плюща «После сингулярности». Проект покажет симбиоз технологий и человека, зафиксированный разными медиа: живопись, графика, скульптура, видео. </h3>
+								<p class="news-inner__description">Галерея pop/off/art представляет персональную выставку Ивана Плюща «После сингулярности». Проект покажет симбиоз технологий и человека, зафиксированный разными медиа: живопись, графика, скульптура, видео. На выставке будут показаны две части масштабного проекта-исследования, в котором Иван Плющ работает «в соавторстве» с генеративно-состязательной нейронной сетью GAN2 и изучает ее способы видеть человеческий мир и воссоздавать его в цифровом пространстве. Живописные серии «После стула», «После дома», «После тебя», «После меня», созданные в рамках первой части проекта, представляют собой изучение человеческого мира искусственным интеллектом. Свои выводы об окружающем мире нейронная сеть делает на основе информации, которую загружает в неё автор. Образы, воссозданные в цифровой реальности, контролируются собранным «дата-сетом», но генерируются непосредственно самой сетью. Результаты художник анализирует с точки зрения своего экзистенциального и визуального опыта и создает живописное полотно. Первая часть проекта была показана на выставке «После всего / После всех. Часть 1. После стула» в Центре современного искусства им. Сергея Курёхина весной 2021 года.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of news inner -->
+		<!-- news content -->
+		<div class="news-content" id="news-content">
+			<div class="container">
+				<div class="news-content__wrapper news-content__wrapper--reverse">
+					<div class="news-content__body">
+						<h3 class="news-content__title">Галерея pop/off/art представляет персональную выставку Ивана Плюща «После сингулярности». </h3>
+						<p class="news-content__description">Галерея pop/off/art представляет персональную выставку Ивана Плюща «После сингулярности». Проект покажет симбиоз технологий и человека, зафиксированный разными медиа: живопись, графика, скульптура, видео. Галерея pop/off/art представляет персональную выставку Ивана Плюща «После сингулярности». Проект покажет симбиоз технологий и человека, зафиксированный разными медиа: живопись, графика, скульптура, видео. </p>
+					</div>
+					<picture class="news-content__img">
+						<img src="img/news-inner-01.jpg" alt="Image">
+					</picture>
+				</div>
+				<div class="news-content__wrapper">
+					<picture class="news-content__img news-content__img--square">
+						<img src="img/news-inner-02.jpg" alt="Image">
+					</picture>
+					<div class="news-content__body">
+						<h3 class="news-content__title">Fusce convallis metus id felis luctus</h3>
+						<p class="news-content__description news-content__description--short">Fusce convallis metus id felis luctus adipiscing. Sed fringilla mauris sit amet nibh. Suspendisse non nisl sit amet velit hendrerit rutrum. Nam commodo suscipit quam. Nullam tincidunt adipiscing enim.</p>
+						<p class="news-content__description">
+							Integer tincidunt. Fusce a quam. Pellentesque posuere. Donec posuere vulputate arcu. In turpis.<br>
+							Maecenas vestibulum mollis diam. Phasellus gravida semper nisi. Phasellus consectetuer vestibulum elit. Nullam tincidunt adipiscing enim. Curabitur vestibulum aliquam leo.<br>
+							Aenean ut eros et nisl sagittis vestibulum. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed in libero ut nibh placerat accumsan. Mauris sollicitudin fermentum libero. Integer tincidunt. Fusce a quam. Pellentesque posuere. Donec posuere vulputate arcu. In turpis.<br>
+							Maecenas vestibulum mollis diam. Phasellus gravida semper nisi. Phasellus consectetuer vestibulum elit. Nullam tincidunt adipiscing enim. Curabitur vestibulum aliquam leo.<br>
+							Aenean ut eros et nisl sagittis vestibulum. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed in libero ut nibh placerat accumsan. Mauris sollicitudin fermentum libero.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of news content -->
+		<!-- news -->
+		<section class="news news--line" id="news">
+			<div class="container">
+				<div class="news__top">
+					<h2 class="news__heading">Другие новости</h2>
+				</div>
+				<div class="news__wrapper">
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-01.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">В этом году на международной ярмарке современного искусства Cosmoscow</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-02.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">Cosmoscow 2020</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-03.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">Cosmoscow 2020</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-01.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">В этом году на международной ярмарке современного искусства Cosmoscow</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-02.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">Cosmoscow 2020</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+					<article class="news__item">
+						<a href="news-inner.html" class="news__img">
+							<img src="img/news-03.jpg" alt="Image">
+						</a>
+						<div class="news__body">
+							<span class="news__date">17 - 20 Сентября 2021</span>
+							<a href="news-inner.html" class="news__title">Cosmoscow 2020</a>
+							<p class="news__description">В этом году на международной ярмарке современного искусства Cosmoscow галерея pop/off/art представит Ивана Плюща и дуэт художников Ольгу и Олега Татаринцевых – авторов, рефлексирующих на тему пересечения прогрессивно развивающихся современных технологий и художественной практики.</p>
+							<a href="#" class="news__btn btn">
+								<span>Подробнее</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+								</svg>
+							</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- end of news -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- questions remain -->
+	<div class="questions-remain" id="questions-remain">
+		<div class="container">
+			<div class="questions-remain__wrapper">
+				<div class="questions-remain__group">
+					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
+					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
+				</div>
+				<a href="#" class="questions-remain__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end of questions remain -->
+	<!-- footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer__main">
+				<a href="index.html" class="footer__logotype">
+					<img src="img/logotype-white.png" width="178px" height="65px" alt="popoffart">
+				</a>
+				<div class="footer__group">
+					<a href="tel:+74957758706" class="footer__elem">+7 (495) 775 87 06</a>
+					<a href="mailto:gallery@popoffart.com" class="footer__elem">gallery@popoffart.com</a>
+				</div>
+				<div class="footer__group">
+					<address class="footer__elem">105120, Москва</address>
+					<address class="footer__elem">4-й Сыромятнический переулок, 1, стр. 6 ЦСИ Винзавод</address>
+				</div>
+				<div class="footer__group footer__group--flex">
+					<span class="footer__elem">Наши партнеры</span>
+					<a href="partners.html" class="footer__go-to">
+						<span>перейти к партнерам</span>
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+						</svg>
+					</a>
+				</div>
+				<ul class="c-socials footer__socials">
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="25px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="22px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="18px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="9px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copyright">pop/off/art gallery © 2011-2022 - все права защищены.</p>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Политики конфиденциальности</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила пользования ресурсом</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила обработки персональных данных</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
+	<!-- scripts -->
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

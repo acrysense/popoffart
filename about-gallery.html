@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>popoffart - О Галерее</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+				</button>
+				<a href="index.html" class="header__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Художники</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Выставки</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Ярмарки</a>
+						</li>
+						<li class="nav__item">
+							<a href="news.html" class="nav__link">Новости</a>
+						</li>
+						<li class="nav__item">
+							<a href="about-gallery.html" class="nav__link">О галерее</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Магазин</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="c-basket header__basket">
+					<span class="c-basket__value">18.000 ₽</span>
+					<a href="#" class="c-basket__btn">
+						<svg class="c-basket__btn-icon">
+							<use xlink:href="img/sprite.svg#icon-basket"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end of header -->
+	<!-- mobile menu -->
+	<div class="mobile-menu" id="mobile-menu">
+		<div class="mobile-menu__wrapper">
+			<nav class="nav mobile-menu__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="nav__link">Художники</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Выставки</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Ярмарки</a>
+					</li>
+					<li class="nav__item">
+						<a href="news.html" class="nav__link">Новости</a>
+					</li>
+					<li class="nav__item">
+						<a href="about-gallery.html" class="nav__link">О галерее</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Магазин</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mobile-menu__block">
+				<p class="mobile-menu__help">Если у Вас остались вопросы свяжитесь с нами</p>
+				<a href="#" class="mobile-menu__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+			<a href="tel:+74957758706" class="mobile-menu__number">+7 (495) 775 87 06</a>
+			<ul class="c-socials c-socials--black mobile-menu__socials">
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="35px" height="24px">
+							<use xlink:href="img/sprite.svg#icon-youtube"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="31px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="26px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="13px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- contacts -->
+		<section class="contacts" id="contacts">
+			<div class="container">
+				<div class="section-heading">
+					<h2 class="section-heading__title">Контакты</h2>
+				</div>
+				<div class="contacts__wrapper">
+					<div class="contacts__left">
+						<div class="contacts__block">
+							<h3 class="contacts__title">Время работы: </h3>
+							<div class="contacts__inner">
+								<div class="contacts__schedule">
+									<span class="contacts__help contacts__help--accent">ВТ - ВС:</span>
+									<span class="contacts__help">10:00 - 20:00</span>
+								</div>
+								<div class="contacts__schedule">
+									<span class="contacts__help contacts__help--accent">ПН - Выходной</span>
+								</div>
+							</div>
+						</div>
+						<div class="contacts__block contacts__block--flex">
+							<div class="contacts__group">
+								<h3 class="contacts__title">Контакты</h3>
+								<a href="tel:+74957758706" class="contacts__link">+7 (495) 775 87 06</a>
+								<a href="mailto:gallery@popoffart.com" class="contacts__link">gallery@popoffart.com</a>
+							</div>
+							<div class="contacts__group">
+								<h3 class="contacts__title">Контакт для прессы</h3>
+								<a href="mailto:pr@popoffart.com" class="contacts__link">pr@popoffart.com</a>
+							</div>
+						</div>
+						<div class="contacts__block">
+							<h3 class="contacts__title">Адрес: </h3>
+							<address class="contacts__link">105120, Москва 4-й Сыромятнический переулок, 1, стр. 6 ЦСИ Винзавод</address>
+						</div>
+					</div>
+					<div class="contacts__right">
+						<picture class="contacts__map">
+							<img src="img/map.png" alt="Image">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of contacts -->
+		<!-- team -->
+		<section class="team" id="team">
+			<div class="container">
+				<div class="section-heading">
+					<h2 class="section-heading__title">Команда</h2>
+				</div>
+				<div class="team__wrapper">
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="team__item">
+						<picture class="team__img">
+							<img src="img/team.png" alt="Image">
+						</picture>
+						<div class="team__body">
+							<div class="team__top">
+								<span class="team__name">Анна Андреева</span>
+								<span class="team__position">Художник-концептуалист</span>
+							</div>
+							<div class="team__info">
+								<div class="team__inner">
+									<span class="team__help">телефон:</span>
+									<a href="tel:+74957758706" class="team__link">+7 (495) 775 87 06</a>
+								</div>
+								<div class="team__inner">
+									<span class="team__help">e-mail:</span>
+									<a href="mailto:gallery@popoffart.com" class="team__link">gallery@popoffart.com</a>
+								</div>
+							</div>
+							<ul class="c-socials c-socials--black team__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="26px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="26px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- end of team -->
+		<!-- offer -->
+		<section class="offer" id="offer">
+			<div class="container">
+				<div class="offer__wrapper">
+					<div class="offer__left">
+						<div class="offer__body">
+							<h2 class="offer__title">Есть предложение ?</h2>
+							<p class="offer__description offer__description--accent">Галерея pop/off/art не рассматривает и не принимает <br>портфолио новых художников.</p>
+							<p class="offer__description">Если Вы хотите сотрудничать с нашей галереей или есть вопрорсы по мероприятиям - напишите нам. Мы рассмотрим ваше проедложение или вопрос и ответим Вам в течении суток</p>
+						</div>
+					</div>
+					<div class="offer__right">
+						<form action="#" class="offer-form offer__form">
+							<div class="input-control offer-form__input">
+								<input type="text" class="input-control__input" placeholder="Как вас зовут ?" required>
+							</div>
+							<div class="input-control offer-form__input">
+								<input type="tel" class="input-control__input" placeholder="Ваш номер телефона" data-inputmask="'mask': '+7 (999) 999 99 999'" required>
+								<span class="input-control__help">для связи с Вами для обсуждения вашего предложения</span>
+							</div>
+							<div class="input-control offer-form__input">
+								<input type="email" class="input-control__input" placeholder="Ваш e-mail" required>
+								<span class="input-control__help">для ответов на ваши вопросы или идеи</span>
+							</div>
+							<div class="input-control offer-form__input">
+								<textarea class="input-control__textarea" placeholder="Ваше сообщение" required></textarea>
+							</div>
+							<button class="offer-form__btn btn">Отправить письмо</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of offer -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- questions remain -->
+	<div class="questions-remain" id="questions-remain">
+		<div class="container">
+			<div class="questions-remain__wrapper">
+				<div class="questions-remain__group">
+					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
+					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
+				</div>
+				<a href="#" class="questions-remain__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end of questions remain -->
+	<!-- footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer__main">
+				<a href="index.html" class="footer__logotype">
+					<img src="img/logotype-white.png" width="178px" height="65px" alt="popoffart">
+				</a>
+				<div class="footer__group">
+					<a href="tel:+74957758706" class="footer__elem">+7 (495) 775 87 06</a>
+					<a href="mailto:gallery@popoffart.com" class="footer__elem">gallery@popoffart.com</a>
+				</div>
+				<div class="footer__group">
+					<address class="footer__elem">105120, Москва</address>
+					<address class="footer__elem">4-й Сыромятнический переулок, 1, стр. 6 ЦСИ Винзавод</address>
+				</div>
+				<div class="footer__group footer__group--flex">
+					<span class="footer__elem">Наши партнеры</span>
+					<a href="partners.html" class="footer__go-to">
+						<span>перейти к партнерам</span>
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+						</svg>
+					</a>
+				</div>
+				<ul class="c-socials footer__socials">
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="25px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="22px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="18px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="9px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copyright">pop/off/art gallery © 2011-2022 - все права защищены.</p>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Политики конфиденциальности</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила пользования ресурсом</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила обработки персональных данных</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
+	<!-- scripts -->
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
