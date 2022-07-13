@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>popoffart - Внутренняя страница выставки</title>
+	<title>popoffart - Внутренняя страница ярмарки</title>
 	<!-- styles -->
 	<link rel="stylesheet" href="css/vendor.min.css">
 	<link rel="stylesheet" href="css/app.min.css">
@@ -135,8 +135,8 @@
 					<div class="swiper">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<div class="main__slide" style="background-image: url(img/main-bg.jpg);">
-									<div class="main__body">
+								<div class="main__slide" style="background-image: url(img/main-bg-fairs.jpg);">
+									<div class="main__body main__body--dark">
 										<h3 class="main__title">После сингулярности</h3>
 										<span class="main__author">Иван Плющ</span>
 										<span class="main__help">20 октября 2021 - 30 ноября 2021</span>
@@ -176,16 +176,16 @@
 				<div class="exhibitions-inner__wrapper">
 					<div class="exhibitions-inner__left">
 						<div class="exhibitions-inner__sticky">
-							<h2 class="exhibitions-inner__heading">О проекте</h2>
+							<h2 class="exhibitions-inner__heading">О ярмарке</h2>
 							<ul class="exhibitions-inner__list">
 								<li class="exhibitions-inner__item">
-									<a href="#" class="exhibitions-inner__link">Пресс-релиз</a>
+									<a href="#" class="exhibitions-inner__link">Скачать презентацию</a>
 								</li>
 								<li class="exhibitions-inner__item">
-									<a href="#" class="exhibitions-inner__link">Текст Марины Альвитер</a>
+									<a href="#" class="exhibitions-inner__link">Скачать каталог</a>
 								</li>
 								<li class="exhibitions-inner__item">
-									<a href="#" class="exhibitions-inner__link">Текст Алексея Гринбаума</a>
+									<a href="#" class="exhibitions-inner__link">Скачать брошюру</a>
 								</li>
 							</ul>
 						</div>
@@ -207,165 +207,111 @@
 									<span class="content-images__description">(описание иллюстрации: несколько фраз)</span>
 								</div>
 							</div>
-							<p>Вторая часть проекта, подготовленная специально для выставки в галерее pop/off/art, оборачивается взаимодействием человека и генеративной сети в противоположном направлении. Теперь художник изучает эстетику новых технологий с помощью искусственного интеллекта. Такие понятия, как «сингулярность», «трансгуманизм», «машинное обучение», «рекурсивность», «терраформинг», подвергаются описанию куратором и художником с помощью фразы или ряда терминов, связанных с этой областью технологий. Фраза загружается в программу, которая выдает образ исследуемого понятия. Темы сингулярности или трансгуманизма сложно ассоциировать с определенным визуальным рядом. Однако во взаимодействии с искусственным интеллектом искусство в лице художника делает представление искомых образов возможным. Они же, в свою очередь, становятся основополагающими в нашем понимании мира, основанном теперь уже не только на человеческом, но и на машинном опыте существования.</p>
-							<img src="img/exhibitions-inner-03.jpg" alt="Image">
-							<p>Иван Плющ родился в 1981 году в Ленинграде. Окончил Санкт-Петербургское художественное училище им. Н.К. Рериха и Санкт-Петербургскую Государственную Художественно-промышленную Академию им. В.И. Мухиной (в 2009). Один из основателей и лидеров группы «Непокоренные» (с 2006), неоднократный участник Молодежных биеннале, участник Параллельной программы «Манифеста 10» (Санкт-Петербург, 2015), участник и организатор многочисленных проектов современного искусства. Работы Ивана Плюща находятся в коллекциях: Государственный Эрмитаж (Санкт-Петербург); Московский музей современного искусства (Москва); Государственный Русский музей (Санкт-Петербург); Государственный центр современного искусства в составе Государственного музея изобразительных искусств имени А.С. Пушкина (Москва). Художник живет и работает в Санкт-Петербурге.</p>
-						</div>
-					</div>
-				</div>
-				<div class="exhibitions-inner__tabs tabs">
-					<div class="tabs__top">
-						<ul class="tabs__list">
-							<li class="tabs__item tabs__item--active">
-								<button class="tabs__tab">Фото экспозиции</button>
-							</li>
-							<li class="tabs__item">
-								<button class="tabs__tab">Работы</button>
-							</li>
-							<li class="tabs__item">
-								<button class="tabs__tab">3D панорама</button>
-							</li>
-							<li class="tabs__item">
-								<button class="tabs__tab">Пресса</button>
-							</li>
-						</ul>
-						<div class="tabs-dropdown">
-							<div class="tabs-dropdown__trigger">
-								<span class="tabs-dropdown__current">Фото экспозиции</span>
-								<span class="tabs-dropdown__counter">
-									<span class="tabs-dropdown__counter--current"></span>
-									<span class="tabs-dropdown__counter--total"></span>
-								</span>
-							</div>
-							<div class="tabs-dropdown__container">
-								<ul class="tabs-dropdown__list">
-									<li class="tabs-dropdown__item tabs-dropdown__item--checked">
-										<label for="tabs-dropdown-01" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-01" class="tabs-dropdown__input" checked>
-											<span class="tabs-dropdown__title">Фото экспозиции</span>
-										</label>
-									</li>
-									<li class="tabs-dropdown__item">
-										<label for="tabs-dropdown-02" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-02" class="tabs-dropdown__input">
-											<span class="tabs-dropdown__title">Работы</span>
-										</label>
-									</li>
-									<li class="tabs-dropdown__item">
-										<label for="tabs-dropdown-03" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-03" class="tabs-dropdown__input">
-											<span class="tabs-dropdown__title">3D панорама</span>
-										</label>
-									</li>
-									<li class="tabs-dropdown__item">
-										<label for="tabs-dropdown-04" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-04" class="tabs-dropdown__input">
-											<span class="tabs-dropdown__title">Пресса</span>
-										</label>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="tabs__wrapper tabs__wrapper--active">
-						<div class="exposure-photo">
-							<div class="exposure-photo__wrapper">
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-01.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-02.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-03.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-04.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-05.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-06.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-07.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-08.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-09.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-10.jpg" alt="Image">
-								</a>
-								<a href="#" class="exposure-photo__item">
-									<img src="img/exposure-photo-11.jpg" alt="Image">
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="tabs__wrapper"></div>
-					<div class="tabs__wrapper">
-						<picture>
-							<img src="img/panorama.jpg" alt="Image">
-						</picture>
-					</div>
-					<div class="tabs__wrapper">
-						<div class="press">
-							<div class="press__wrapper">
-								<div class="press__item">
-									<picture class="press__img">
-										<img src="img/press-01.jpg" alt="Image">
-									</picture>
-									<div class="press__body">
-										<h3 class="press__title">Выставка нового поколения</h3>
-										<a href="artinvestment.ru" class="press__link" target="_blank">artinvestment.ru </a>
-										<p class="press__description">Московский музей современного искусства, при поддержке pop/off/art</p>
-										<a href="#" class="press__more more-btn">
-											<span>Читать статью</span>
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-											</svg>
-										</a>
-										<a href="#" class="press__btn btn">
-											<span>Читать статью</span>
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-											</svg>
-										</a>
-									</div>
-								</div>
-								<div class="press__item press__item--reverse">
-									<div class="press__body">
-										<h3 class="press__title">Выставка нового поколения</h3>
-										<a href="artinvestment.ru" class="press__link" target="_blank">artinvestment.ru </a>
-										<p class="press__description">Московский музей современного искусства, при поддержке pop/off/art</p>
-										<a href="#" class="press__more more-btn">
-											<span>Читать статью</span>
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-											</svg>
-										</a>
-										<a href="#" class="press__btn btn">
-											<span>Читать статью</span>
-											<svg>
-												<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
-											</svg>
-										</a>
-									</div>
-									<picture class="press__img">
-										<img src="img/press-02.jpg" alt="Image">
-									</picture>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- end of exhibitions inner -->
+		<!-- exposure photo -->
+		<div class="exposure-photo exposure-photo--mt">
+			<div class="container">
+				<h2 class="exposure-photo__heading">Фото стенды</h2>
+				<div class="exposure-photo__wrapper">
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-01.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-02.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-03.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-04.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-05.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-06.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-07.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-08.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-09.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-10.jpg" alt="Image">
+					</a>
+					<a href="#" class="exposure-photo__item">
+						<img src="img/exposure-photo-11.jpg" alt="Image">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- end of exposure photo -->
+		<!-- other info -->
+		<div class="other-info" id="other-info">
+			<div class="container">
+				<div class="other-info__wrapper">
+					<picture class="other-info__img">
+						<img src="img/main-bg-fairs.jpg" alt="Image">
+					</picture>
+					<div class="other-info__body">
+						<h3 class="other-info__title">Fusce convallis metus id felis luctus adipiscing. Sed fringilla mauris sit amet nibh. Suspendisse non nisl sit amet velit hendrerit rutrum. Nam commodo suscipit quam. Nullam tincidunt adipiscing enim.</h3>
+						<p class="other-info__description">Fusce convallis metus id felis luctus adipiscing. Sed fringilla mauris sit amet nibh. Suspendisse non nisl sit amet velit hendrerit rutrum. Nam commodo suscipit quam. Nullam tincidunt adipiscing enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of other info -->
+		<!-- news content -->
+		<div class="news-content" id="news-content">
+			<div class="container">
+				<div class="news-content__wrapper news-content__wrapper--ml">
+					<picture class="news-content__img">
+						<img src="img/fairs-inner-01.jpg" alt="Image">
+					</picture>
+					<div class="news-content__body">
+						<h3 class="news-content__title">Михаил Левиус</h3>
+						<p class="news-content__description">Учился в Новокузнецком художественном училище с 2004 по 2006 год. Закончил МГАХИ им. Сурикова, мастерская графики (2006-2012). Многократный лауреат региональных конкурсов молодых художников, стипендиат губернаторской премии в области культуры и искусства (2006 г.). Постоянный член команды Арт-центра «Полиграфический цех». Член МОСХа. Живет и работает в Москве.</p>
+					</div>
+				</div>
+				<div class="news-content__wrapper news-content__wrapper--padding news-content__wrapper--reverse">
+					<div class="news-content__body">
+						<h3 class="news-content__title">Павла Маркова</h3>
+						<p class="news-content__description">Экспериментирует с материалами и смешивает различные техники. Опыт работы на ритуальном производстве вылился в творческое исследование тем витальности-мортальности. Участница Триеннале российского современного искусства (2020). Живет и работает в Москве.На стенде Павла Маркова представляет новую живопись и графику, а также объекты из проекта «Punk's Not Dead», которые были показаны на 2-ой Триеннале российского современного искусства. Павла Маркова работает без эскизов, это тот метод, который позволяет лишь интуитивно предполагать, во что разрастется та или иная работа.</p>
+					</div>
+					<picture class="news-content__img">
+						<img src="img/fairs-inner-02.jpg" alt="Image">
+					</picture>
+				</div>
+				<div class="news-content__wrapper news-content__wrapper--ml">
+					<picture class="news-content__img">
+						<img src="img/fairs-inner-03.jpg" alt="Image">
+					</picture>
+					<div class="news-content__body">
+						<h3 class="news-content__title">Иван Симонов</h3>
+						<p class="news-content__description">Участник выставок, фестивалей уличного искусства и ярмарок современного искусства. Работы находятся в музеях: Copelouzos Family Art Museum, Greece и Музее Стрит-арта, Санкт-Петербург; Фонде «ВИНЗАВОД». Известность приобрел под тегом #маленькиелюди: за время существования проект стал полноценной частью московского стрит-арта.На стенде Иван Симонов представляет живопись и серию фотографий «Продано», в которых работает с окружающим пространством, анализирует информационное поле, в котором существует и проблемы, с которыми сталкивается современное общество.</p>
+					</div>
+				</div>
+				<div class="news-content__wrapper news-content__wrapper--padding news-content__wrapper--reverse">
+					<div class="news-content__body">
+						<h3 class="news-content__title">Андрей Андреев</h3>
+						<p class="news-content__description">Экспериментирует с материалами и смешивает различные техники. Опыт работы на ритуальном производстве вылился в творческое исследование тем витальности-мортальности. Участница Триеннале российского современного искусства (2020). Живет и работает в Москве.На стенде Павла Маркова представляет новую живопись и графику, а также объекты из проекта «Punk's Not Dead», которые были показаны на 2-ой Триеннале российского современного искусства. Павла Маркова работает без эскизов, это тот метод, который позволяет лишь интуитивно предполагать, во что разрастется та или иная работа.</p>
+					</div>
+					<picture class="news-content__img">
+						<img src="img/fairs-inner-04.jpg" alt="Image">
+					</picture>
+				</div>
+			</div>
+		</div>
+		<!-- end of news content -->
 	</div>
 	<!-- end of wrapper -->
 	<!-- questions remain -->
