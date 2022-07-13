@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>popoffart - Художники</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+				</button>
+				<a href="index.html" class="header__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="painters.html" class="nav__link">Художники</a>
+						</li>
+						<li class="nav__item">
+							<a href="exhibitions.html" class="nav__link">Выставки</a>
+						</li>
+						<li class="nav__item">
+							<a href="fairs.html" class="nav__link">Ярмарки</a>
+						</li>
+						<li class="nav__item">
+							<a href="news.html" class="nav__link">Новости</a>
+						</li>
+						<li class="nav__item">
+							<a href="about-gallery.html" class="nav__link">О галерее</a>
+						</li>
+						<li class="nav__item">
+							<a href="store.html" class="nav__link">Магазин</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="c-basket header__basket">
+					<span class="c-basket__value">18.000 ₽</span>
+					<a href="#" class="c-basket__btn">
+						<svg class="c-basket__btn-icon">
+							<use xlink:href="img/sprite.svg#icon-basket"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end of header -->
+	<!-- mobile menu -->
+	<div class="mobile-menu" id="mobile-menu">
+		<div class="mobile-menu__wrapper">
+			<nav class="nav mobile-menu__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="painters.html" class="nav__link">Художники</a>
+					</li>
+					<li class="nav__item">
+						<a href="exhibitions.html" class="nav__link">Выставки</a>
+					</li>
+					<li class="nav__item">
+						<a href="fairs.html" class="nav__link">Ярмарки</a>
+					</li>
+					<li class="nav__item">
+						<a href="news.html" class="nav__link">Новости</a>
+					</li>
+					<li class="nav__item">
+						<a href="about-gallery.html" class="nav__link">О галерее</a>
+					</li>
+					<li class="nav__item">
+						<a href="store.html" class="nav__link">Магазин</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mobile-menu__block">
+				<p class="mobile-menu__help">Если у Вас остались вопросы свяжитесь с нами</p>
+				<a href="#" class="mobile-menu__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+			<a href="tel:+74957758706" class="mobile-menu__number">+7 (495) 775 87 06</a>
+			<ul class="c-socials c-socials--black mobile-menu__socials">
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="35px" height="24px">
+							<use xlink:href="img/sprite.svg#icon-youtube"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="31px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="26px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="13px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- painters -->
+		<div class="painters" id="painters">
+			<div class="container">
+				<div class="painters__wrap tabs">
+					<div class="tabs__top">
+						<ul class="tabs__list">
+							<li class="tabs__item tabs__item--active">
+								<button class="tabs__tab">Художники</button>
+							</li>
+							<li class="tabs__item">
+								<button class="tabs__tab">Наследие</button>
+							</li>
+							<li class="tabs__item">
+								<button class="tabs__tab">Работы</button>
+							</li>
+							<li class="tabs__item">
+								<button class="tabs__tab">pop/off/art lab</button>
+							</li>
+						</ul>
+						<div class="tabs-dropdown">
+							<div class="tabs-dropdown__trigger">
+								<span class="tabs-dropdown__current">Художники</span>
+								<span class="tabs-dropdown__counter">
+									<span class="tabs-dropdown__counter--current"></span>
+									<span class="tabs-dropdown__counter--total"></span>
+								</span>
+							</div>
+							<div class="tabs-dropdown__container">
+								<ul class="tabs-dropdown__list">
+									<li class="tabs-dropdown__item tabs-dropdown__item--checked">
+										<label for="tabs-dropdown-01" class="tabs-dropdown__elem">
+											<input type="checkbox" id="tabs-dropdown-01" class="tabs-dropdown__input" checked>
+											<span class="tabs-dropdown__title">Художники</span>
+										</label>
+									</li>
+									<li class="tabs-dropdown__item">
+										<label for="tabs-dropdown-02" class="tabs-dropdown__elem">
+											<input type="checkbox" id="tabs-dropdown-02" class="tabs-dropdown__input">
+											<span class="tabs-dropdown__title">Наследие</span>
+										</label>
+									</li>
+									<li class="tabs-dropdown__item">
+										<label for="tabs-dropdown-03" class="tabs-dropdown__elem">
+											<input type="checkbox" id="tabs-dropdown-03" class="tabs-dropdown__input">
+											<span class="tabs-dropdown__title">Работы</span>
+										</label>
+									</li>
+									<li class="tabs-dropdown__item">
+										<label for="tabs-dropdown-04" class="tabs-dropdown__elem">
+											<input type="checkbox" id="tabs-dropdown-04" class="tabs-dropdown__input">
+											<span class="tabs-dropdown__title">pop/off/art lab</span>
+										</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tabs__wrapper tabs__wrapper--active">
+						<div class="painters__wrapper">
+							<div class="painters__left">
+								<ul class="painters__list">
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АННА АФОНИНА</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АЛЕКСАНДР ПЛЮСНИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВИКА БЕГАЛЬСКАЯ И АЛЕКАНДР ВИЛКИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВИТАЛИЙ ПУШНИЦКИЙ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВИТАЛИЙ ПУШНИЦКИЙ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ЭРИК БУЛАТОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АЛЕКСАНДР СИГУТИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АЛЕКСАНДР СИГУТИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ЮЛИЯ ИВАШКИНА</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ИВАН СИМОНОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АНДРЕЙ КРАСУЛИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АЛЬБЕРТ СОЛДАТОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">РОСТИСЛАВ ЛЕБЕДЕВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ОЛЬГА И ОЛЕГ ТАТАРИНЦЕВЫ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АНГЕЛИНА МЕРЕНКОВА</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ДЕСПИНА ФЛЕССА</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ИРИНА НАХОВА</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">КИРИЛЛ ЧЕЛУШКИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АНАТОЛИЙ ОСМОЛОВСКИЙ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВИКА ШУМСКАЯ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВЛАДИМИР ПОТАПОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВЛАД ЮРАШКО</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ИВАН ПЛЮЩ</a>
+									</li>
+								</ul>
+							</div>
+							<div class="painters__right">
+								<picture class="painters__img">
+									<img src="img/painters-about.jpg" alt="Image">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="tabs__wrapper">
+						<div class="painters__wrapper">
+							<div class="painters__left">
+								<ul class="painters__list">
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ЕВГЕНИЙ ГОРОХОВСКИЙ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ВЛАДИМИР КУПРИЯНОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АНДРЕЙ ГРОСИЦКИЙ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ОЛЕГ ЛАНГ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">ЮРИЙ ЗЛОТНИКОВ</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">АЛЕКСАНДР ПАНКИН</a>
+									</li>
+									<li class="painters__item">
+										<a href="painters-inner.html" class="painters__link">НИКОЛАЙ КАСАТКИН</a>
+									</li>
+								</ul>
+							</div>
+							<div class="painters__right">
+								<picture class="painters__img">
+									<img src="img/painters.jpg" alt="Image">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="tabs__wrapper">
+						<div class="painters-works">
+							<div class="painters-works__wrapper">
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-01.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Юрий Альберт</span>
+								</a>
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-02.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Александр Ней</span>
+								</a>
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-03.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Батынков Константин</span>
+								</a>
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-01.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Юрий Альберт</span>
+								</a>
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-02.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Александр Ней</span>
+								</a>
+								<a href="painters-inner.html" class="painters-works__item">
+									<picture class="painters-works__img">
+										<img src="img/painters-works-03.jpg" alt="Image">
+									</picture>
+									<span class="painters-works__title">Батынков Константин</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="tabs__wrapper">
+						<div class="painters-about">
+							<div class="painters-about__wrapper">
+								<div class="painters-about__body">
+									<p class="painters-about__description">Галерея представляет авторов нескольких поколений – как классиков современного искусства. Работы всех художников галереи включены в музейные собрания, в том числе – в крупнейшие мировые музеи. Большинство художников удостоились национальных и международных премий, многие принимали участие в ключевых международных периодических выставках (Documenta, Венецианская биеннале и др.), входят в число лидеров аукционных продаж и «Топ-100 признанных художников». Выставки, реализованные при участии галереи pop/off/art, проходили в ведущих музеях России: Эрмитаже, Государственной Третьяковской галерее, Русском музее, Московском музее современного искусства.</p>
+									<div class="painters-about__authors">
+										<span class="painters-about__author">АНДРЕЙ АНДРЕЕВ</span>
+										<span class="painters-about__author">МИХАИЛ ЛЕВИУС</span>
+										<span class="painters-about__author">ПАВЛА МАРКОВА</span>
+									</div>
+								</div>
+								<picture class="painters-about__img">
+									<img src="img/painters-about.jpg" alt="Image">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of painters -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- questions remain -->
+	<div class="questions-remain" id="questions-remain">
+		<div class="container">
+			<div class="questions-remain__wrapper">
+				<div class="questions-remain__group">
+					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
+					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
+				</div>
+				<a href="#" class="questions-remain__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end of questions remain -->
+	<!-- footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer__main">
+				<a href="index.html" class="footer__logotype">
+					<img src="img/logotype-white.png" width="178px" height="65px" alt="popoffart">
+				</a>
+				<div class="footer__group">
+					<a href="tel:+74957758706" class="footer__elem">+7 (495) 775 87 06</a>
+					<a href="mailto:gallery@popoffart.com" class="footer__elem">gallery@popoffart.com</a>
+				</div>
+				<div class="footer__group">
+					<address class="footer__elem">105120, Москва</address>
+					<address class="footer__elem">4-й Сыромятнический переулок, 1, стр. 6 ЦСИ Винзавод</address>
+				</div>
+				<div class="footer__group footer__group--flex">
+					<span class="footer__elem">Наши партнеры</span>
+					<a href="partners.html" class="footer__go-to">
+						<span>перейти к партнерам</span>
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+						</svg>
+					</a>
+				</div>
+				<ul class="c-socials footer__socials">
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="25px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="22px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="18px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="9px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copyright">pop/off/art gallery © 2011-2022 - все права защищены.</p>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Политики конфиденциальности</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила пользования ресурсом</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила обработки персональных данных</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
+	<!-- scripts -->
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
