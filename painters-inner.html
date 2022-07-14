@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>popoffart - Внутренняя страница художника</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+					<span class="hamburger__inner"></span>
+				</button>
+				<a href="index.html" class="header__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="painters.html" class="nav__link">Художники</a>
+						</li>
+						<li class="nav__item">
+							<a href="exhibitions.html" class="nav__link">Выставки</a>
+						</li>
+						<li class="nav__item">
+							<a href="fairs.html" class="nav__link">Ярмарки</a>
+						</li>
+						<li class="nav__item">
+							<a href="news.html" class="nav__link">Новости</a>
+						</li>
+						<li class="nav__item">
+							<a href="about-gallery.html" class="nav__link">О галерее</a>
+						</li>
+						<li class="nav__item">
+							<a href="store.html" class="nav__link">Магазин</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="c-basket header__basket">
+					<span class="c-basket__value">18.000 ₽</span>
+					<a href="#" class="c-basket__btn">
+						<svg class="c-basket__btn-icon">
+							<use xlink:href="img/sprite.svg#icon-basket"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end of header -->
+	<!-- mobile menu -->
+	<div class="mobile-menu" id="mobile-menu">
+		<div class="mobile-menu__wrapper">
+			<nav class="nav mobile-menu__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="painters.html" class="nav__link">Художники</a>
+					</li>
+					<li class="nav__item">
+						<a href="exhibitions.html" class="nav__link">Выставки</a>
+					</li>
+					<li class="nav__item">
+						<a href="fairs.html" class="nav__link">Ярмарки</a>
+					</li>
+					<li class="nav__item">
+						<a href="news.html" class="nav__link">Новости</a>
+					</li>
+					<li class="nav__item">
+						<a href="about-gallery.html" class="nav__link">О галерее</a>
+					</li>
+					<li class="nav__item">
+						<a href="store.html" class="nav__link">Магазин</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mobile-menu__block">
+				<p class="mobile-menu__help">Если у Вас остались вопросы свяжитесь с нами</p>
+				<a href="#" class="mobile-menu__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+			<a href="tel:+74957758706" class="mobile-menu__number">+7 (495) 775 87 06</a>
+			<ul class="c-socials c-socials--black mobile-menu__socials">
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="35px" height="24px">
+							<use xlink:href="img/sprite.svg#icon-youtube"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="31px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="26px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="c-socials__item">
+					<a href="#" class="c-socials__link">
+						<svg class="c-socials__icon" width="13px" height="26px">
+							<use xlink:href="img/sprite.svg#icon-facebook"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- painters inner -->
+		<div class="painters-inner">
+			<div class="container">
+				<picture class="painters-inner__image">
+					<img src="img/painters-about.jpg" alt="Image">
+				</picture>
+				<div class="painters-inner__wrapper">
+					<div class="painters-inner__block">
+						<div class="painters-inner__left">
+							<picture class="painters-inner__img">
+								<img src="img/img-user.png" alt="Image">
+							</picture>
+							<h3 class="painters-inner__title">Анна Афонина</h3>
+							<a href="painters.html" class="painters-inner__back back-btn">
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+								</svg>
+								<span>Назад к художникам</span>
+							</a>
+						</div>
+						<div class="painters-inner__right">
+							<div class="painters-inner__content content">
+								<h2>Молодая художница нового поколения.</h2>
+								<p>Анна Афонина – молодая художница нового поколения. Родилась в 1989 году в Тольятти. Окончила Тольяттинское училище искусств. Пришла в мир искусства из сферы графического дизайна – серьезно увлекаться рисованием Анна начала только в 20 лет. Поступила в Академию художеств им. Репина и успешно окончила ее по специальности станковая графика в 2017 году. В Академии Афонина безупречно овладела «ремеслом», одним из очевидных влияний традиционного академического образования на ее творчество можно назвать фигуративность работ. За свободой творчества и разрывом шаблонов Аня пришла в Школу Родченко в 2019 году, решив продолжить образование в сфере искусства.</p>
+							</div>
+						</div>
+					</div>
+					<div class="painters-inner__block">
+						<div class="painters-inner__left">
+							<h3 class="painters-inner__title">Биография</h3>
+							<ul class="painters-inner__list">
+								<li class="painters-inner__item">
+									<a href="#" class="painters-inner__link">Скачать резюме</a>
+								</li>
+								<li class="painters-inner__item">
+									<a href="#" class="painters-inner__link">Персональный сайт</a>
+								</li>
+							</ul>
+						</div>
+						<div class="painters-inner__right">
+							<div class="painters-inner__content content">
+								<p>
+									Анна Афонина – молодая художница нового поколения. Родилась в 1989 году в Тольятти. Окончила Тольяттинское училище искусств. Пришла в мир искусства из сферы графического дизайна – серьезно увлекаться рисованием Анна начала только в 20 лет. Поступила в Академию художеств им. Репина и успешно окончила ее по специальности станковая графика в 2017 году. В Академии Афонина безупречно овладела «ремеслом», одним из очевидных влияний традиционного академического образования на ее творчество можно назвать фигуративность работ. За свободой творчества и разрывом шаблонов Аня пришла в Школу Родченко в 2019 году, решив продолжить образование в сфере искусства.
+									<br><br>
+									Художница работает с живописью, используя смешанную технику: в ее работах гармонично сочетаются масляные, аэрозольные краски и фломастеры. Живопись на данный момент является основным направлением работ Анны, однако художница готова к экспериментам и задумывается об использовании текста и звука в своем творчестве.В картинах Анны, как признается сама художница, много автобиографичного. Ее творчество основано, прежде всего, на личных воспоминаниях, переживаниях, которые скорее имеют негативный оттенок. В периоды, когда другие упиваются страданием и замыкаются в себе, Аня испытывает особенный творческий подъем. Счастье для нее не источник вдохновения, а наоборот пауза, этап замедления в работе.Несмотря на то, что художница не так давно начала свой путь в мире современного искусства, она уже успела заявить о себе на российской и зарубежной арт-сценах. Анна – участница множества выставочных проектов, в том числе и международных, среди которых: выставка «Сердцу Христову» в венгерском городе Тапшонь, персональные выставки в Санкт-Петербурге и Москве.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!--<div class="painters-inner__block">
+                        <div class="painters-inner__left">
+                            <h3 class="painters-inner__title">Выставки <br>и каталоги</h3>
+                        </div>
+                        <div class="painters-inner__right">
+                            <div class="painters-inner__content content"></div>
+                        </div>
+                    </div>-->
+				</div>
+			</div>
+		</div>
+		<!-- end of painters inner -->
+		<!-- info content -->
+		<section class="info-content info-content--mt" id="info-content">
+			<div class="container">
+				<div class="info-content__slider info-content__slider--reverse">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="info-content__slide">
+									<div class="info-content__wrapper">
+										<div class="info-content__body">
+											<h3 class="info-content__title info-content__title--light">Аукцион: ВСЁ ПО 100 В КУБЕ</h3>
+											<p class="info-content__description">Курорты Краснодарского края хотят, чтобы мы веселились тут всегда. Чурчхела ждет твоих поцелуев. А банан хрустит между коленками и все знает о беспомощной радости нашей неполной семьи. …То, что я делаю сейчас — это такая рефлексия от просмотра старых плёнок, и мне кажется, это получается одновременно и про время, и про ощущение времени...</p>
+										</div>
+									</div>
+									<picture class="info-content__img">
+										<img src="img/painter-content.jpg" alt="Image">
+									</picture>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="info-content__slide">
+									<div class="info-content__wrapper">
+										<div class="info-content__body">
+											<h3 class="info-content__title info-content__title--light">О галерее</h3>
+											<p class="info-content__description">Галерея pop/off/art – одна из ведущих галерей современного искусства России. Галерея представляет не только искусство российских художников (в том числе живущих по всему миру), но и ряд международных авторов, фокусируясь на художниках постсоветского пространства, Восточной и Центральной Европы. Галерея входит в топ-5 российских галерей (по версии Forbes) и в топ-500 галерей мира (по версии Blouin Artinfo).</p>
+										</div>
+									</div>
+									<picture class="info-content__img">
+										<img src="img/about-gallery.jpg" alt="Image">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-buttons">
+							<button class="swiper-button-prev" aria-label="Назад">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+								</svg>
+							</button>
+							<button class="swiper-button-next" aria-label="Далее">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of info content -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- questions remain -->
+	<div class="questions-remain" id="questions-remain">
+		<div class="container">
+			<div class="questions-remain__wrapper">
+				<div class="questions-remain__group">
+					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
+					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
+				</div>
+				<a href="#" class="questions-remain__btn btn">
+					<span>Написать</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end of questions remain -->
+	<!-- footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer__main">
+				<a href="index.html" class="footer__logotype">
+					<img src="img/logotype-white.png" width="178px" height="65px" alt="popoffart">
+				</a>
+				<div class="footer__group">
+					<a href="tel:+74957758706" class="footer__elem">+7 (495) 775 87 06</a>
+					<a href="mailto:gallery@popoffart.com" class="footer__elem">gallery@popoffart.com</a>
+				</div>
+				<div class="footer__group">
+					<address class="footer__elem">105120, Москва</address>
+					<address class="footer__elem">4-й Сыромятнический переулок, 1, стр. 6 ЦСИ Винзавод</address>
+				</div>
+				<div class="footer__group footer__group--flex">
+					<span class="footer__elem">Наши партнеры</span>
+					<a href="partners.html" class="footer__go-to">
+						<span>перейти к партнерам</span>
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+						</svg>
+					</a>
+				</div>
+				<ul class="c-socials footer__socials">
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="25px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="22px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="18px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="c-socials__item">
+						<a href="#" class="c-socials__link">
+							<svg class="c-socials__icon" width="9px" height="18px">
+								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copyright">pop/off/art gallery © 2011-2022 - все права защищены.</p>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Политики конфиденциальности</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила пользования ресурсом</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Правила обработки персональных данных</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- end of footer -->
+	<!-- scripts -->
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
