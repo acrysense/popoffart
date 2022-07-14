@@ -140,6 +140,42 @@
 						<span class="store-promo__author">Михаил Левиус</span>
 					</div>
 				</div>
+				<div class="store__filter store-filter">
+					<div class="store-filter__wrapper">
+						<div class="store-filter__select">
+							<select class="select">
+								<option value="0">Художник</option>
+								<option value="1">АННА АФОНИНА</option>
+								<option value="2">АЛЕКСАНДР ПЛЮСНИН</option>
+							</select>
+						</div>
+						<div class="store-filter__select">
+							<select class="select">
+								<option value="0">Категория</option>
+								<option value="1">А</option>
+								<option value="2">Б</option>
+								<option value="2">В</option>
+							</select>
+						</div>
+						<div class="store-filter__select">
+							<select class="select">
+								<option value="0">Размер</option>
+								<option value="1">10x10</option>
+								<option value="2">35x10</option>
+							</select>
+						</div>
+						<div class="store-filter__prices">
+							<span class="store-filter__help">Цена</span>
+							<div class="store-filter__range-wrap">
+								<span class="store-filter__value">6500</span>
+								<div class="store-filter__range" id="range-money"></div>
+								<span class="store-filter__value">55000</span>
+							</div>
+							<input type="text" class="store-filter__input" placeholder="1000" value="6500">
+						</div>
+						<button class="store-filter__reset">сбросить</button>
+					</div>
+				</div>
 				<div class="store__wrapper">
 					<article class="store__item">
 						<picture class="store__img">
@@ -418,6 +454,9 @@
 		</div>
 	</footer>
 	<!-- end of footer -->
+	<!-- modals -->
+	<div class="modal" id="product-01"></div>
+	<!-- end of modals -->
 	<!-- scripts -->
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	<script src="js/vendor.min.js"></script>
