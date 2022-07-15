@@ -340,7 +340,7 @@
 					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
 					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
 				</div>
-				<a href="#" class="questions-remain__btn btn">
+				<a href="#" class="questions-remain__btn btn modal-btn" data-id="feedback-modal">
 					<span>Написать</span>
 					<svg>
 						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -637,6 +637,44 @@
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="feedback-modal">
+		<div class="modal__wrap">
+			<div class="modal__top">
+				<a href="index.html" class="modal__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<button class="modal__close">
+					<span>Закрыть</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="modal__wrapper">
+				<div class="feedback">
+					<h3 class="feedback__heading">Обратный звонок</h3>
+					<p class="feedback__description">Заполните все поля ниже и мы перезвоним вам в течение 5 минут</p>
+					<form action="#" class="feedback-form feedback__form">
+						<div class="input-control offer-form__input">
+							<input type="text" class="input-control__input" placeholder="Как вас зовут ?" required>
+						</div>
+						<div class="input-control offer-form__input">
+							<input type="tel" class="input-control__input" placeholder="Ваш номер телефона" data-inputmask="'mask': '+7 (999) 999 99 999'" required>
+							<span class="input-control__help">для связи с Вами для обсуждения вашего предложения</span>
+						</div>
+						<div class="input-control offer-form__input">
+							<input type="email" class="input-control__input" placeholder="Ваш e-mail">
+							<span class="input-control__help">для ответов на ваши вопросы или идеи</span>
+						</div>
+						<div class="input-control offer-form__input">
+							<textarea class="input-control__textarea" placeholder="Ваше сообщение" required></textarea>
+						</div>
+						<button class="feedback-form__btn btn btn--accent">Отправить</button>
+					</form>
 				</div>
 			</div>
 		</div>

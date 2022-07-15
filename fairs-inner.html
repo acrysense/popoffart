@@ -188,6 +188,29 @@
 									<a href="#" class="exhibitions-inner__link">Скачать брошюру</a>
 								</li>
 							</ul>
+							<ul class="c-socials c-socials--black exhibitions-inner__socials">
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="13px" height="25px">
+											<use xlink:href="img/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="25px" height="25px">
+											<use xlink:href="img/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="c-socials__item">
+									<a href="#" class="c-socials__link">
+										<svg class="c-socials__icon" width="31px" height="25px">
+											<use xlink:href="img/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<div class="exhibitions-inner__right">
@@ -276,6 +299,32 @@
 						</div>
 					</article>
 				</div>
+				<div class="pagination">
+					<button class="pagination__btn pagination__btn--prev" aria-label="Назад">
+						<svg class="pagination__btn--icon">
+							<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+						</svg>
+					</button>
+					<ul class="pagination__list">
+						<li class="pagination__item pagination__item--active">
+							<span class="pagination__elem">01</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">02</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">03</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">04</span>
+						</li>
+					</ul>
+					<button class="pagination__btn pagination__btn--next" aria-label="Далее">
+						<svg class="pagination__btn--icon">
+							<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+						</svg>
+					</button>
+				</div>
 				<blockquote class="works__quote">
 					Михаил Левиус подготовил живописные работы специально для Blazar, в которых продолжает совершенствовать свой живописный язык и искать новые источники вдохновения в музыке, манге и современной культуре.<br>
 					На стенде также представлены работы стрит-артиста Ивана Симонова и Андрея Андреева.
@@ -321,6 +370,32 @@
 					<a href="#" class="exposure-photo__item">
 						<img src="img/exposure-photo-11.jpg" alt="Image">
 					</a>
+				</div>
+				<div class="pagination">
+					<button class="pagination__btn pagination__btn--prev" aria-label="Назад">
+						<svg class="pagination__btn--icon">
+							<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+						</svg>
+					</button>
+					<ul class="pagination__list">
+						<li class="pagination__item pagination__item--active">
+							<span class="pagination__elem">01</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">02</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">03</span>
+						</li>
+						<li class="pagination__item">
+							<span class="pagination__elem">04</span>
+						</li>
+					</ul>
+					<button class="pagination__btn pagination__btn--next" aria-label="Далее">
+						<svg class="pagination__btn--icon">
+							<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+						</svg>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -392,7 +467,7 @@
 					<h3 class="questions-remain__title">Если у Вас остались вопросы свяжитесь с нами</h3>
 					<p class="questions-remain__description">Галерея pop/off/art не рассматривает и не принимает портфолио новых художников.</p>
 				</div>
-				<a href="#" class="questions-remain__btn btn">
+				<a href="#" class="questions-remain__btn btn modal-btn" data-id="feedback-modal">
 					<span>Написать</span>
 					<svg>
 						<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -689,6 +764,44 @@
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="feedback-modal">
+		<div class="modal__wrap">
+			<div class="modal__top">
+				<a href="index.html" class="modal__logotype">
+					<img src="img/logotype.png" width="158px" height="58px" alt="popoffart">
+				</a>
+				<button class="modal__close">
+					<span>Закрыть</span>
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="modal__wrapper">
+				<div class="feedback">
+					<h3 class="feedback__heading">Обратный звонок</h3>
+					<p class="feedback__description">Заполните все поля ниже и мы перезвоним вам в течение 5 минут</p>
+					<form action="#" class="feedback-form feedback__form">
+						<div class="input-control offer-form__input">
+							<input type="text" class="input-control__input" placeholder="Как вас зовут ?" required>
+						</div>
+						<div class="input-control offer-form__input">
+							<input type="tel" class="input-control__input" placeholder="Ваш номер телефона" data-inputmask="'mask': '+7 (999) 999 99 999'" required>
+							<span class="input-control__help">для связи с Вами для обсуждения вашего предложения</span>
+						</div>
+						<div class="input-control offer-form__input">
+							<input type="email" class="input-control__input" placeholder="Ваш e-mail">
+							<span class="input-control__help">для ответов на ваши вопросы или идеи</span>
+						</div>
+						<div class="input-control offer-form__input">
+							<textarea class="input-control__textarea" placeholder="Ваше сообщение" required></textarea>
+						</div>
+						<button class="feedback-form__btn btn btn--accent">Отправить</button>
+					</form>
 				</div>
 			</div>
 		</div>
