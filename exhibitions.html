@@ -147,67 +147,59 @@
 		<!-- exhibitions -->
 		<div class="exhibitions" id="exhibitions">
 			<div class="container">
-				<div class="exhibitions__wrap tabs">
-					<div class="tabs__top">
-						<ul class="tabs__list tabs__list--uppercase">
-							<li class="tabs__item tabs__item--active">
-								<button class="tabs__tab">Сейчас</button>
-							</li>
-							<li class="tabs__item">
-								<button class="tabs__tab">Скоро</button>
-							</li>
-							<li class="tabs__item">
-								<button class="tabs__tab">Архив</button>
-							</li>
-						</ul>
-						<div class="tabs-dropdown">
-							<div class="tabs-dropdown__trigger">
-								<span class="tabs-dropdown__current">Сейчас</span>
-								<span class="tabs-dropdown__counter">
-									<span class="tabs-dropdown__counter--current"></span>
-									<span class="tabs-dropdown__counter--total"></span>
-								</span>
+				<div class="exhibitions__wrap year-tabs">
+					<div class="year-tabs__top">
+						<div class="year-tabs__slider">
+							<button class="swiper-button-prev" aria-label="Назад">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-prev"></use>
+								</svg>
+							</button>
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<button class="year-tabs__tab year-tabs__tab--active">Все</button>
+									</div>
+									<div class="swiper-slide">
+										<button class="year-tabs__tab">2021</button>
+									</div>
+									<div class="swiper-slide">
+										<button class="year-tabs__tab">2020</button>
+									</div>
+									<div class="swiper-slide">
+										<button class="year-tabs__tab">2019</button>
+									</div>
+									<div class="swiper-slide">
+										<button class="year-tabs__tab">2018</button>
+									</div>
+									<div class="swiper-slide">
+										<button class="year-tabs__tab">2017</button>
+									</div>
+								</div>
 							</div>
-							<div class="tabs-dropdown__container">
-								<ul class="tabs-dropdown__list">
-									<li class="tabs-dropdown__item tabs-dropdown__item--checked">
-										<label for="tabs-dropdown-01" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-01" class="tabs-dropdown__input" checked>
-											<span class="tabs-dropdown__title">Сейчас</span>
-										</label>
-									</li>
-									<li class="tabs-dropdown__item">
-										<label for="tabs-dropdown-02" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-02" class="tabs-dropdown__input">
-											<span class="tabs-dropdown__title">Скоро</span>
-										</label>
-									</li>
-									<li class="tabs-dropdown__item">
-										<label for="tabs-dropdown-03" class="tabs-dropdown__elem">
-											<input type="checkbox" id="tabs-dropdown-03" class="tabs-dropdown__input">
-											<span class="tabs-dropdown__title">Архив</span>
-										</label>
-									</li>
-								</ul>
-							</div>
+							<button class="swiper-button-next" aria-label="Далее">
+								<svg class="swiper-button-icon">
+									<use xlink:href="img/sprite.svg#icon-arrow-next"></use>
+								</svg>
+							</button>
 						</div>
 					</div>
-					<div class="tabs__wrapper tabs__wrapper--active">
+					<div class="year-tabs__wrapper year-tabs__wrapper--active">
 						<div class="exhibitions__wrapper">
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-01.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -216,19 +208,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-02.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -237,19 +229,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-03.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -258,19 +250,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-04.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -280,22 +272,22 @@
 							</article>
 						</div>
 					</div>
-					<div class="tabs__wrapper">
+					<div class="year-tabs__wrapper">
 						<div class="exhibitions__wrapper">
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-03.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -304,19 +296,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-01.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -325,19 +317,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-02.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -346,19 +338,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-04.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -368,22 +360,22 @@
 							</article>
 						</div>
 					</div>
-					<div class="tabs__wrapper">
+					<div class="year-tabs__wrapper">
 						<div class="exhibitions__wrapper">
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-01.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -392,19 +384,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-04.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -413,19 +405,19 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-02.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
@@ -434,19 +426,283 @@
 								</div>
 							</article>
 							<article class="exhibitions__item">
-								<a href="exhibitions-inner.html" class="exhibitions__img">
+								<a href="fairs-inner.html" class="exhibitions__img">
 									<img src="img/exhibition-03.jpg" alt="Image">
 								</a>
 								<div class="exhibitions__body">
 									<div class="exhibitions__inner">
 										<div class="exhibitions__group">
-											<a href="exhibitions-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
 											<span class="exhibitions__author">Иван Плющ</span>
 										</div>
 										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
 									</div>
 									<p class="exhibitions__description">Московский музей современного искусства</p>
-									<a href="exhibitions-inner.html" class="exhibitions__more more-btn">
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="year-tabs__wrapper">
+						<div class="exhibitions__wrapper">
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-03.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-01.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-02.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-04.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="year-tabs__wrapper">
+						<div class="exhibitions__wrapper">
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-01.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-04.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-02.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-03.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="year-tabs__wrapper">
+						<div class="exhibitions__wrapper">
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-03.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-01.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-02.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
+										<span>Подробнее</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
+										</svg>
+									</a>
+								</div>
+							</article>
+							<article class="exhibitions__item">
+								<a href="fairs-inner.html" class="exhibitions__img">
+									<img src="img/exhibition-04.jpg" alt="Image">
+								</a>
+								<div class="exhibitions__body">
+									<div class="exhibitions__inner">
+										<div class="exhibitions__group">
+											<a href="fairs-inner.html" class="exhibitions__title">Театр Плюща</a>
+											<span class="exhibitions__author">Иван Плющ</span>
+										</div>
+										<span class="exhibitions__date">10 ноября 2021 - 30 января 2021</span>
+									</div>
+									<p class="exhibitions__description">Московский музей современного искусства</p>
+									<a href="fairs-inner.html" class="exhibitions__more more-btn">
 										<span>Подробнее</span>
 										<svg>
 											<use xlink:href="img/sprite.svg#icon-arrow-more"></use>
